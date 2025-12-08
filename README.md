@@ -1,6 +1,12 @@
 # Spotzee HTTP/SMTP Email Proxy - MailWizz Extension
 
-Smart email proxy for **cold email marketing** and outreach campaigns. Routes through multiple SMTP providers (Gmail, Outlook, Yahoo) with smart rate limiting and automatic failover. **100% email deliverability** through reliable queueing. Pay only $0.00007 per email ($0.07 per 1,000 emails) with no monthly fees.
+📖 **Official Guide:** [Cold Email Outreach with Spotzee](https://spotzee.com/solutions/cold-email-outreach/) | 📚 **Documentation:** [Email Proxy Help Center](https://help.spotzee.com/hc/spotzee-kb/en/categories/email-proxy)
+
+[![Watch the Setup Guide](https://img.youtube.com/vi/4ZgM9qSMTAI/maxresdefault.jpg)](https://www.youtube.com/watch?v=4ZgM9qSMTAI)
+
+---
+
+Smart email proxy for **cold email marketing** and outreach campaigns. Routes through multiple SMTP providers (Gmail, Outlook, Yahoo) with smart rate limiting and automatic failover. **100% email deliverability** through reliable queueing. Pay only $0.0001 per email ($0.10 per 1,000 emails) with no monthly fees.
 
 ## Quick Start Guide
 
@@ -142,7 +148,7 @@ This ensures marketing campaigns never impact transactional email deliverability
 ## Key Benefits
 
 ### 💰 Pay Only for What You Send
-- **$0.00007 per email** ($0.07 per 1,000 emails)
+- **$0.0001 per email** ($0.10 per 1,000 emails)
 - No monthly fees, no minimums, no hidden costs
 
 ### 🚀 100% Deliverability
@@ -210,19 +216,19 @@ This ensures marketing campaigns never impact transactional email deliverability
 ### Pricing Example
 
 **100,000 emails per month:**
-- Cost: 100,000 × $0.00007 = **$7.00/month** ($0.07 per 1,000 emails)
+- Cost: 100,000 × $0.0001 = **$10.00/month** ($0.10 per 1,000 emails)
 - No base fees, no per-provider charges
 - Pay only for successful deliveries
 
 **1 million emails per month:**
-- Cost: 1,000,000 × $0.00007 = **$70.00/month** ($0.07 per 1,000 emails)
+- Cost: 1,000,000 × $0.0001 = **$100.00/month** ($0.10 per 1,000 emails)
 
 ## Why Choose Spotzee HTTP/SMTP Email Proxy?
 
 ✅ **100% Email Deliverability** - Reliable queueing ensures delivery  
 ✅ **SMTP or HTTP API** - Use whichever fits your workflow  
 ✅ **Human-Like Sending** - Randomized rates look natural  
-✅ **Transparent Pricing** - $0.07 per 1,000 emails, nothing else  
+✅ **Transparent Pricing** - $0.10 per 1,000 emails, nothing else  
 ✅ **Zero Downtime** - Automatic failover keeps emails flowing  
 ✅ **Battle-Tested** - Proven at millions of emails daily  
 
