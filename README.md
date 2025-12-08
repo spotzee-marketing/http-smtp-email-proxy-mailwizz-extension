@@ -36,19 +36,24 @@ Sign up for a [Spotzee](https://app.spotzee.com/sign-up) account
   - Username → MailWizz username field
   - API Key → MailWizz password field
 
-### 5. Configure Webhooks
-- Go to **Event Webhooks** tab
+### 5. Install Extension in MailWizz
+- [Download the extension](https://github.com/spotzee-marketing/http-smtp-email-proxy-mailwizz-extension/archive/refs/heads/main.zip) zip file to your computer
+- In MailWizz, go to **/backend → Extend → Extensions → Upload Extension**
+- Upload the zip file and click **Enable**
+
+### 6. Create Delivery Server
+- Go to **Delivery Servers → Create New**
+- Select **Spotzee Web API** from the server type dropdown
+- Enter your username and API key from step 4
+- Save and note the webhook URL shown in the info modal
+
+### 7. Configure Webhooks in Spotzee
+- Back in Spotzee, go to **Event Webhooks** tab
 - Click **Add New Webhook**
 - Select **"Bounces"** events
-- Enter the webhook URL from your MailWizz delivery server settings (shown in the info modal)
+- Enter the webhook URL from your MailWizz delivery server (step 6)
 
-### 6. Add to MailWizz
-- In MailWizz, go to **Delivery Servers → Create New**
-- Select **Spotzee Web API**
-- Enter your username and password from step 4
-- Save
-
-### 7. Start Sending
+### 8. Start Sending
 Send campaigns through MailWizz as normal. View delivery logs in Spotzee by clicking **Email Proxy → View Logs**.
 
 ---
