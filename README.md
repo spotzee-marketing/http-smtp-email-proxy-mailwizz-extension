@@ -45,15 +45,9 @@ Sign up for a [Spotzee](https://app.spotzee.com/sign-up) account
 - Go to **Delivery Servers → Create New**
 - Select **Spotzee Web API** from the server type dropdown
 - Enter your username and API key from step 4
-- Save and note the webhook URL shown in the info modal
+- Save the delivery server
 
-### 7. Configure Webhooks in Spotzee
-- Back in Spotzee, go to **Event Webhooks** tab
-- Click **Add New Webhook**
-- Select **"Bounces"** events
-- Enter the webhook URL from your MailWizz delivery server (step 6)
-
-### 8. Start Sending
+### 7. Start Sending
 Send campaigns through MailWizz as normal. View delivery logs in Spotzee by clicking **Email Proxy → View Logs**.
 
 ---
@@ -63,12 +57,10 @@ Send campaigns through MailWizz as normal. View delivery logs in Spotzee by clic
 This extension seamlessly integrates MailWizz with Spotzee HTTP/SMTP Email Proxy API:
 
 - **Simple Setup** - Add your Spotzee credentials as a delivery server in MailWizz
-- **Automatic Bounce Handling** - Hard/soft bounces are logged and subscribers are blacklisted automatically
-- **Complaint Processing** - Abuse reports unsubscribe recipients and protect your sender reputation
-- **Real-Time Webhooks** - Delivery events update campaign statistics instantly
-- **No Manual Configuration** - Webhook URLs are generated automatically
+- **Smart Routing** - Emails automatically route through your configured providers
+- **Automatic Failover** - Failed providers are bypassed instantly with zero downtime
 
-Send campaigns through MailWizz as usual - all bounce and complaint handling happens automatically.
+Send campaigns through MailWizz as usual - all routing and failover happens automatically.
 
 ## How It Works
 
@@ -192,7 +184,7 @@ This ensures marketing campaigns never impact transactional email deliverability
 
 **Cold Email Agencies** - Manage multiple client campaigns with per-account quotas, automatic failover, and transparent per-email billing. No monthly fees mean you only pay for active campaigns.
 
-**Lead Generation Teams** - B2B outbound sales automation with multi-SMTP rotation, bounce handling, and detailed delivery tracking for every prospect interaction.
+**Lead Generation Teams** - B2B outbound sales automation with multi-SMTP rotation and detailed delivery tracking for every prospect interaction.
 
 **SaaS Applications** - Transactional emails (password resets, notifications) delivered reliably.
 
