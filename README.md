@@ -2,7 +2,7 @@
 
 📖 **Official Guide:** [Cold Email Outreach with Spotzee](https://spotzee.com/solutions/cold-email-outreach/) | 📚 **Documentation:** [Email Proxy Help Center](https://help.spotzee.com/hc/spotzee-kb/en/categories/email-proxy)
 
-[![Watch the Setup Guide](https://img.youtube.com/vi/4ZgM9qSMTAI/maxresdefault.jpg)](https://www.youtube.com/watch?v=4ZgM9qSMTAI)
+[![Watch the Setup Guide](https://img.youtube.com/vi/4ZgM9qSMTAI/maxresdefault.jpg?v=1)](https://www.youtube.com/watch?v=4ZgM9qSMTAI)
 
 ---
 
@@ -69,7 +69,7 @@ Send campaigns through MailWizz as usual - all bounce and complaint handling hap
 
 ```mermaid
 graph LR
-    A[Your Application] -->|SMTP or HTTP API| B[Spotzee Proxy]
+    A[MailWizz Instance] -->|SMTP or HTTP API| B[Spotzee Proxy]
     B -->|Smart Routing| C[Provider/Email Account #1]
     B -->|Smart Routing| D[Provider/Email Account #2]
     B -->|Smart Routing| E[Provider/Email Account #3]
@@ -97,21 +97,13 @@ Direct API integration for enhanced deliverability:
 - **Resend**
 - **Postmark**
 - **SparkPost**
-- **Mandrill**
 - **Mailjet**
 - **Brevo** (Sendinblue)
 - **SMTP.com**
 - **SocketLabs**
 - **Elastic Email**
-- **Pepipost**
+- **Pepipost** (Netcore)
 - **MailerSend**
-- **MailerLite**
-- **ActiveCampaign**
-- **Mailchimp**
-- **Klaviyo**
-- **Campaign Monitor**
-- **Moosend**
-- **And more...**
 
 ---
 
