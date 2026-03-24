@@ -1,3 +1,14 @@
+> [!IMPORTANT]
+> ## 🚚 This Repository Has Moved!
+>
+> 🔀 **This project is now maintained at [Sendmux/mailwizz-smtp-proxy](https://github.com/Sendmux/mailwizz-smtp-proxy).**
+>
+> 🚫 **This repository is archived and no longer receiving updates.**
+>
+> 👉 Please head to the new repo for the latest code, issues, and releases.
+
+---
+
 # Spotzee HTTP/SMTP Email Proxy - MailWizz Extension
 
 📖 **Official Guide:** [Cold Email Outreach with Spotzee](https://spotzee.com/solutions/cold-email-outreach/) | 📚 **Documentation:** [Email Proxy Help Center](https://help.spotzee.com/hc/spotzee-kb/en/categories/email-proxy)
